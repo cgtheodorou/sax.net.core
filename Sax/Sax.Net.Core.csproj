@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Sax.Net.Core</AssemblyName>
+    <RootNamespace>Sax.Net</RootNamespace>
+    <Authors>Charalambos Theodorou</Authors>
+    <Company />
+    <Product />
+    <Description>Sax .NET port to Core. Based on rasmujp's implementation in .NET 4.5 which you can find here https://github.com/rasmusjp/sax.net</Description>
+    <PackageProjectUrl>https://github.com/cgtheodorou/sax.net.core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cgtheodorou/sax.net.core</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Sax .NET Core</PackageTags>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
